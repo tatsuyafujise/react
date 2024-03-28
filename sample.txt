@@ -1,0 +1,29 @@
+さようなら
+さようなら
+
+<button.html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Button Example</title>
+<link rel="stylesheet" href="button.css">
+</head>
+<body>
+<button class="custom-button">ボタン</button>
+</body>
+</html>
+
+<button.css>
+.custom-button {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  border: 1px solid black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: black;
+  color: white;
+}
