@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
    <script src="/libs/react.development.js"></script>
@@ -7,10 +7,13 @@
 </head>
 <body>
     <div id="app"></div>
-    <script>
+    <script type = "text/babel">
         const appEl = document.querySelector('#app');
         const root = ReactDOM.createRoot(appEl);
-        root.render('こんにちは');
+        function Example(){
+            return <h1>Hello Components</h1>;
+        }
+        root.render(<Example />);
     </script>
 </body>
 </html>
